@@ -8,7 +8,7 @@ var tbody = d3.select("tbody");
 function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
-    // Next, loop through each object in the data nd append a row and cells for each value in the row
+    // Next, loop through each object in the data and append a row and cells for each value in the row
     data.forEach((dataRow) => {
         // Append a row to the table body
         let row = tbody.append("tr");
@@ -41,4 +41,4 @@ function handleClick() {
 d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
-builtTable(tableData);
+buildTable(tableData);
