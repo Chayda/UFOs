@@ -19,6 +19,6 @@ JavaScript table and HTML web page.
 •	To clear the searches and reset the table, clear the search box(es) and press Enter.
 
 ## Summary:
-The results of the new site design with multiple filters, is that the code does not correct for case-errors. This can be corrected by applying code within the JavaScript file to make it so the filter boxes filter for any case, and also filter as the text is input, so if someone is typing in California, the filter will catch the “ca” at the beginning of the world and filter down.
+The results of the new site design with multiple filters, is that the code does not correct for case-errors. This can be corrected by applying code within the JavaScript file to make it so the filter boxes convert the input text to lowercase by using .toLowerCase(), and also filter as the text is input, so if someone is typing in California, the filter will catch the “ca” at the beginning of the world and filter down.
 
 
